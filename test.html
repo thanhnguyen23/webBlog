@@ -4,9 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Xin chào</h1>
+    <form action="submit.html" method="post">
+        <div class="container">
+          <h1>Đăng Ký</h1>
+          <p>Vui lòng điền vào biểu mẫu này để tạo tài khoản.</p>
+          <hr>
+      
+          <label for="username"><b>username</b></label>
+          <input type="text" placeholder="Enter username" name="username" value=""required>
+
+          <label for="address"><b>Address</b></label>
+          <input type="text" placeholder="address" name="address" value="" required>
+
+          <label for="phone"><b>phone</b></label>
+          <input type="text" placeholder="phone" name="phone" value="" required>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="email" name="email" value="" required>
+      
+          <label for="sex"><b>Gender</b></label>
+          <br>
+          <br/>
+          <label for="Nam"><b>Nam</b></label>
+          <input type="radio" placeholder="girl" name="sex" value="" required>
+          <label for="Nam"><b>Nữ</b></label>
+          <input type="radio" placeholder="boy" name="sex" value="" required>
+            
+          <br/>
+          <br/>
+          <label for="age"><b>age</b></label>
+          <input type="text" placeholder="age" name="age" value="" required>
+
+          <label for="trinhdochuyenmon"><b>Trình Độ Chuyên Môn</b></label>
+          <input type="text" placeholder="Trình Độ Chuyên Môn" name="trinhdochuyenmon" value="" required>
+      
+          <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <input type="submit" class="signupbtn"></input>
+          </div>
+        </div>
+    </form>
 </body>
 </html>
